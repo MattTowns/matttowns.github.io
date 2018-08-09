@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+
+  <script defer src="js/font-awesome/all.js"></script> <!--load all styles -->
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400" rel="stylesheet">
+  </head>
+  <body>
+    <header class="home-header">
+        <div class="header-video-container">
+            <video autoplay loop muted class="header-video">
+                    <source src="videos/header-video.mp4" type="video/mp4" playsinline="playslinline">
+                    Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="header-content">
+            <div class="header-logos">
+                <img class="header-logo-left" src="images/badge-en.png" alt="">
+                <div class="header-logo-right">
+                    <img class="glitch-auto" src="images/cdprojektred-white.png" alt="">  
+                    <canvas class="header-logo-right-canvas"></canvas>
+
+                </div>
+            </div>
+            <div class="header-icons">
+                <div class="header-play">
+                    <img class="header-play-image" src="images/play.png">
+                </div>
+                <div class="header-mouse"></div>
+            </div>
+
+        </div>
+    </header>
+    <main class="main-section">
+        <div class="content">
+            <section class="signup-section">
+                <div class="signup-intro">
+                        <strong class="signup-intro-headline slide-from-left">ALWAYS FIRST!</strong>
+                        <span class="signup-intro-text slide-from-left">Sign up to the Cyberpunk 2077 newsletter.</span>
+                </div>
+                <div class="signup-registration">
+                    <input class="registration-email" type="text" placeholder="Enter your email address"></input>
+                    <button class="registration-submit">Submit</button>
+                </div>
+                <div class="signup-social">
+                    <div class="social-media">
+                        <a href="#" class="social-media-link">
+                            <div class="icon">
+                                    <i class="fab fa-facebook-f"></i>
+
+                            </div>
+                            <span class="signup-social-title slide-from-left">_facebook</span>
+                        </a>
+                        <a href="#" class="social-media-link">
+                            <div class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <span class="signup-social-title slide-from-left">_twitter</span>
+                        </a>                        
+                        <a href="#" class="social-media-link">
+                            <div class="icon">
+                                <i class="far fa-comment"></i>
+                            </div>
+                            <span class="signup-social-title slide-from-left">_forum</span>
+                        </a>
+                        <a href="#" class="social-media-link">
+                            <div class="icon">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                            <span class="signup-social-title slide-from-left">_discord</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="gallery-container">
+                    <div class="gallery-items">
+                        <div class="gallery-item"><a class="gallery-item-link" href=""><img id="gallery-image-1" class="glitch" src="images/gallery-1.png" alt=""><canvas class="gallery-item-canvas"></canvas></a></div>
+                        <div class="gallery-item"><a class="gallery-item-link" href=""><img id="gallery-image-2" class="glitch" src="images/gallery-2.png" alt=""><canvas class="gallery-item-canvas"></canvas></a></div>
+                        <div class="gallery-item"><a class="gallery-item-link" href=""><img id="gallery-image-3" class="glitch" src="images/gallery-3.png" alt=""><canvas class="gallery-item-canvas"></canvas></a></div>
+                        <div class="gallery-item"><a class="gallery-item-link" href=""><img id="gallery-image-4" class="glitch" src="images/gallery-4.png" alt=""><canvas class="gallery-item-canvas"></canvas></a></div>
+                    </div>
+                    <div class="gallery-previous"><i class="fal fa-long-arrow-left"></i></div>    
+                    <div class="gallery-next"><i class="fal fa-long-arrow-right"></i></div>    
+                </div>
+                <div class="gallery-options">
+                    <button class="gallery-option active"><span>Screenshots</span></button>
+                    <button class="gallery-option"><span>Wallpapers</span></button>
+                    
+                </div>
+            </section>
+            <section class="news-headlines">
+                <div class="news-container">
+                    <div class="news-items">
+                        <div class="news-item">
+                            <a href="#">
+                                <div class="news-item-content">
+                                    <div class="news-item-left ">
+                                        <div class="news-item-header slide-from-left">
+                                            <span>Cyberpunk 2077 E3 2018 Trailer Frame by Frame EP03</span>
+                                        </div>
+                                    </div>
+                                    <div class="news-item-right ">
+                                            <span class="news-date slide-from-left">26.06.2018</span>
+                                            <button class="news-button slide-from-left"><span>More <i class="fal fa-long-arrow-right"></i></span></button>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-item">
+                            <a href="#">
+                                <div class="news-item-content">
+                                    <div class="news-item-left ">
+                                        <div class="news-item-header slide-from-left">
+                                            <span>Cyberpunk 2077 E3 2018 Trailer Frame by Frame EP01</span>
+                                        </div>
+                                    </div>
+                                    <div class="news-item-right ">
+                                            <span class="news-date slide-from-left">19.06.2018</span>
+                                            <button class="news-button slide-from-left"><span>More <i class="fal fa-long-arrow-right"></i></span></button>
+                                    </div>
+    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-item">
+                            <a href="#">
+                                <div class="news-item-content">
+                                    <div class="news-item-left">
+                                        <div class="news-item-header slide-from-left">
+                                            <span>Concept Art from the Trailer!</span>
+                                        </div>
+                                    </div>
+                                    <div class="news-item-right">
+                                            <span class="news-date slide-from-left">12.06.2018</span>
+                                            <button class="news-button slide-from-left"><span>More <i class="fal fa-long-arrow-right"></i></span></button>
+                                    </div>
+        
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-item">
+                            <a href="#">
+                                <div class="news-item-content">
+                                    <div class="news-item-left">
+                                        <div class="news-item-header slide-from-left">
+                                            <span>Cyberpunk 2077 E3 2018 Trailer Frame by Frame EP02</span>
+                                        </div>
+                                    </div>
+                                    <div class="news-item-right">
+                                            <span class="news-date slide-from-left">21.06.2018</span>
+                                            <button class="news-button slide-from-left"><span>More <i class="fal fa-long-arrow-right"></i></span></button>
+                                    </div>
+            
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news-item">
+                            <a href="#">
+                                <div class="news-item-content">    
+                                    <div class="news-item-left">
+                                        <div class="news-item-header slide-from-left">
+                                            <span>Good show, good noise!</span>
+                                        </div>
+                                    </div> 
+                                    <div class="news-item-right">
+                                            <span class="news-date slide-from-left">15.06.2018</span>
+                                            <button class="news-button slide-from-left"><span>More <i class="fal fa-long-arrow-right"></i></span></button>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="" class="footer-link "><div class="slide-from-left footer-link-content">Terms of Use &amp; Privacy Policy <i class="fal fa-long-arrow-right"></i></div></a>
+                <a href="" class="footer-link"><div class="slide-from-left footer-link-content">Careers <i class="fal fa-long-arrow-right"></i></div></a>
+                <a href="" class="footer-link"><div class="slide-from-left footer-link-content">facebook.com/CyberpunkGame <i class="fal fa-long-arrow-right"></i></div></a>
+                <a href="" class="footer-link"><div class="slide-from-left footer-link-content">twitter.com/cyberpunkgame <i class="fal fa-long-arrow-right"></i></div></a>
+            </div>
+            <div class="footer-platforms">
+                <div class="footer-platform"><img class="slide-from-left" src="images/xbox.png" alt=""></div>
+                <div class="footer-platform"><img class="slide-from-left" src="images/ps4.png" alt=""></div>
+                <div class="footer-platform"><img class="slide-from-left" src="images/pc.png" alt=""></div>
+            </div>
+            <div class="footer-language">
+                <div class="footer-language-content">
+                    <div class="footer-language-controls slide-from-left">
+                        <i class="far fa-globe-africa"></i><span class="footer-language-name">English</span><i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>                  
+            </div>
+            <div class="footer-copyright">
+                <div class="slide-from-left" >
+                    CD PROJEKT®, Cyberpunk®, Cyberpunk 2077® are registered trademarks of CD PROJEKT S.A. © 2018 CD PROJEKT S.A. All rights reserved. All other copyrights and trademarks are the property of their respective owners.
+                </div>
+            </div>
+            <div class="footer-games">
+                <a class="footer-game" href=""><img class="slide-from-left" src="images/witcher.png" alt=""><div class="footer-game-title slide-from-left">thewitcher.com <i class="fal fa-long-arrow-right"></i></div></a>
+                <a class="footer-game" href=""><img class="slide-from-left" src="images/gwent.png" alt=""><div class="footer-game-title slide-from-left">playgwent.com <i class="fal fa-long-arrow-right"></i></div></a>
+            </div>
+            <div class="footer-logos">
+                    <div class="footer-logo"><img class="slide-from-left" src="images/CDProjektRed-White.svg" alt=""></div>
+                    <div class="footer-logo"><img class="slide-from-left" src="images/esrb.png" alt=""></div>
+                </div>
+        </div>
+
+        <script src="js/scripts.js"></script>
+
+    </footer>
+  </body>
+
+  <script>
+
+    let glitchFull = (image,canvas, counter,imagePositions)=>{
+        
+        if(counter < 5* 60){
+            imagePositions =  new Array(canvas.height).fill({num:0, max:false});
+            canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height, 50);
+            let ctx = canvas.getContext('2d');
+            ctx.drawImage(image, 0, 0, image.width,    image.height,     // source rectangle
+                        0+40,0, canvas.width-40,  canvas.height);   
+        }
+        else if(counter >= 5 * 60){
+            let peak = 45; 
+            let arrayValue = 0;
+            let ctx = canvas.getContext('2d');
+            let arrayCounter = 0;
+            let curveStart = getRandom(0,image.height);
+            let ratio = canvas.height / image.height;
+            ctx.clearRect(0, 0, canvas.width, canvas.height, 50);
+
+                for(let i = 0; i<canvas.height;i++){
+                        if(i>=peak-10 && i <peak+10 && counter % 24 == 0){
+                            if(imagePositions[i].max){
+                                imagePositions[i].num += 5;  
+                            }
+                            else if(!imagePositions[i].max && imagePositions[i].num<=-75){
+
+                                imagePositions[i].max = true;
+                                imagePositions[i].num += 5;
+                            }
+                            else{
+                                imagePositions[i].num -= 5;
+                            }
+                            console.log(imagePositions[i]);
+                            ctx.drawImage(image, 0,  0 + (i / ratio), image.width,    1/ ratio,     // source rectangle
+                            (imagePositions[i].num)+40, 0 + i, canvas.width-40, 1);     
+                        }
+                        else if(i<peak-10|| i > peak+10){
+                            ctx.drawImage(image, 0,  0 + (i / ratio), image.width,    1/ ratio,     // source rectangle
+                            40, 0 + i, canvas.width-40, 1);    
+                        }
+ 
+
+
+                }
+        }
+        counter++;
+        if(counter > 5.5 * 60){
+            counter = 0;
+        }
+            requestAnimationFrame(function () {
+                    glitchFull(image, canvas, counter,imagePositions );
+                });
+
+
+    }
+
+    let canvasTest = (image,canvas, startPosition, glitchArea)=>{
+
+            var ctx = canvas.getContext("2d");
+            let dummyImage = new Image();
+            dummyImage.src = image.src;
+
+            canvas.setAttribute("width", image.width);
+            canvas.setAttribute("height", image.height);
+
+  
+
+            /*for (var i = 0; i < verticalSlices; i++)  {
+                var horizOffset = getRandom(-Math.abs(maxHorizOffset), maxHorizOffset);
+                ctx.drawImage(image, 
+                0, 
+                i * verticalSlices, 
+                canvas.width, 
+                i * verticalSlices + verticalSlices, 
+                horizOffset, i * verticalSlices, 
+                canvas.height, 
+                i * verticalSlices + verticalSlices);
+            }*/
+            let ratio = canvas.height / dummyImage.height;
+            let targetArea = image.height * glitchArea;
+            let startPoint =  image.height * startPosition;
+            
+            ctx.drawImage(dummyImage, 0, 0, dummyImage.width,    dummyImage.height * startPosition,     // source rectangle
+                    0, 0, canvas.width, canvas.height * startPosition); 
+
+            for(let i = 0; i<targetArea;i=i+2){
+                ctx.drawImage(dummyImage, 0,  (dummyImage.height * startPosition) + (i / ratio), dummyImage.width,    2 / ratio,     // source rectangle
+                getRandom(-1, 4), (canvas.height * startPosition) + i, canvas.width, 2);     
+            }
+            
+
+            ctx.drawImage(dummyImage, 0, dummyImage.height * (glitchArea + startPosition), dummyImage.width,    dummyImage.height * glitchArea,     // source rectangle
+                        0, canvas.height * (glitchArea + startPosition), canvas.width, canvas.height * glitchArea);     
+
+
+            }; 
+
+    let glitchElements = document.querySelectorAll('.glitch');
+    for(let i = 0; i<glitchElements.length;i++){
+        let canvas = glitchElements[i].nextSibling;
+        let timer = {};
+        console.log(glitchElements[i]);
+        if(glitchElements[i].complete){ // From cache
+            canvas.addEventListener('mouseenter', (e)=>{
+                timer = setInterval(function () {
+                    if((Math.floor(Math.random() * 1000))) {
+
+                    }
+
+                    requestAnimationFrame(function () {
+                        canvasTest(glitchElements[i], canvas, .45,.25);
+                    })
+
+                }, 75);          
+            });
+            canvas.addEventListener('mouseleave', (e)=>{
+                console.log(timer);
+                clearInterval(timer);       
+                setTimeout(()=>canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height, 50));
+            });
+        }
+        else { // On load
+            glitchElements[i].addEventListener('load', function() {
+                canvas.addEventListener('mouseenter', (e)=>{
+                    timer = setInterval(function () {
+                        if((Math.floor(Math.random() * 1000))) {
+    
+                        }
+    
+                        requestAnimationFrame(function () {
+                            canvasTest(glitchElements[i], canvas, .45,.25);
+                        })
+    
+                    }, 75);          
+                });
+                canvas.addEventListener('mouseleave', (e)=>{
+                    console.log(timer);
+                    clearInterval(timer);       
+                    setTimeout(()=>canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height, 50));
+                });
+            });
+        }
+    }
+
+    let glitchAutoElements = document.querySelectorAll('.glitch-auto');
+    for(let i = glitchAutoElements.length -1; i==0 ;i--){
+        let canvas = glitchAutoElements[i].nextElementSibling;
+        let timer = {};
+        if(glitchAutoElements[i].complete){ // From cache
+            var ctx = canvas.getContext("2d");
+                canvas.setAttribute("width", glitchAutoElements[i].width+40);
+                canvas.setAttribute("height", glitchAutoElements[i].height);
+                let dummyImage = new Image();
+                dummyImage.src = glitchAutoElements[i].src;
+                let ratio = canvas.height / dummyImage.height;
+                let imagePositions = new Array(canvas.height).fill({num:0, max:false});
+
+                ctx.drawImage(dummyImage, 0, 0, dummyImage.width,    dummyImage.height,     // source rectangle
+                    0+40,0, canvas.width-40,  canvas.height);    
+            requestAnimationFrame(function () {
+                glitchFull(dummyImage, canvas,0, imagePositions);
+            });
+            glitchAutoElements[i].parentNode.removeChild(glitchAutoElements[i]);
+        }
+        else{
+            glitchAutoElements[i].addEventListener('load', function() {
+                var ctx = canvas.getContext("2d");
+                canvas.setAttribute("width", glitchAutoElements[i].width+40);
+                canvas.setAttribute("height", glitchAutoElements[i].height);
+                let dummyImage = new Image();
+                dummyImage.src = glitchAutoElements[i].src;
+                let ratio = canvas.height / dummyImage.height;
+                let imagePositions = new Array(canvas.height).fill({num:0, max:false});
+                ctx.drawImage(dummyImage, 0, 0, dummyImage.width,    dummyImage.height,     // source rectangle
+                    0+40,0, canvas.width-40,  canvas.height);    
+                requestAnimationFrame(function () {
+                    glitchFull(dummyImage, canvas,0, imagePositions);
+                });
+                glitchAutoElements[i].parentNode.removeChild(glitchAutoElements[i]);
+
+            });
+        }
+    }
+
+    function getRandom(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+
+  </script>
+
+</html>

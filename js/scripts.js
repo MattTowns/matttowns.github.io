@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$("#scroll-button").on("click",function(o){$("html, body").animate({scrollTop:$("#projects-section").offset().top},1e3)})});
